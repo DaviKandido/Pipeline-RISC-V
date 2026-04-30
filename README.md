@@ -144,5 +144,4 @@ Use este [montador](https://riscvasm.lucasteske.dev/#) de assembly do risc-v onl
 ## 📌 Licença
 
 Uso acadêmico.
-# Pipeline-RISC-V
-# Pipeline-RISC-V
+
