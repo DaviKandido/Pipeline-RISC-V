@@ -22,7 +22,7 @@ module HazardDetectionUnit (
         // Padrão: pipeline segue sem pausa.
         stall = 1'b0;
 
-        // Único caso de stall neste projeto: load-use.
+        // Único caso de stall: load-use.
         // Se a instrução à frente é LW e a instrução atual em EX quer ler o
         // mesmo registrador de destino, o dado ainda não está pronto a tempo.
         // Então inserimos 1 bolha (stall = 1).
